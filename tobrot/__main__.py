@@ -54,7 +54,7 @@ if __name__ == "__main__" :
     #
     incoming_message_handler = MessageHandler(
         incoming_message_f,
-        filters=Filters.command(["leech@iamnila_bot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["leech@iamchitti_bot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_message_handler)
     #
@@ -66,7 +66,7 @@ if __name__ == "__main__" :
     #
     incoming_youtube_dl_handler = MessageHandler(
         incoming_youtube_dl_f,
-        filters=Filters.command(["ytdl@iamnila_bot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["ytdl@iamchitti_bot"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_dl_handler)
     #
